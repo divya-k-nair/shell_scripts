@@ -1,0 +1,46 @@
+#!/bin/bash
+
+#task1:create a bash script with comments explaining what the script does
+
+<<comment
+
+ task1 : create a bash script with comments explaining what the script does
+ task2 : create a bash script that uses echo to print a message of your choice.
+ task3 : create a bash script that declares variables and assigns values to them.
+ task4 : Create a bash script that takes two variables (numbers) as input and prints their sum using those variables.
+ task5 : create a bash script that utilizes at least three different built-in variables to display relevant information.
+ task6 : create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
+
+comment
+
+#task2: create a bash script that uses echo to print a message of your choice.
+
+ echo "Welcome to 7 days shell scripting challenge"
+ echo ""
+#task3:  create a bash script that declares variables and assigns values to them.
+
+a=1
+b=3
+
+#task4 : Create a bash script that takes two variables (numbers) as input and prints their sum using those variables.
+echo "addition of numbers:"
+echo ""
+sum=$((a+b))
+echo "The sum of $a and $b is : $sum"
+echo ""
+#task5:  create a bash script that utilizes at least three different built-in variables to display relevant information.
+ echo "built-in variables"
+ echo ""
+ echo "home directory: $HOME"
+ echo "path of current directory: $PWD"
+ echo "current user: $USER"
+ echo "Current shell: $SHELL"
+
+ echo""
+#task6:  create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
+echo "list all .sh and .txt files in the current directory:"
+echo ""
+ ls *.sh
+ ls *.txt
+
+#END
